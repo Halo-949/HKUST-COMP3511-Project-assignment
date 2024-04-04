@@ -1,0 +1,14 @@
+# An input file for a Simplified Completely Fair Scheduler (CFS)
+# Empty lines and lines starting with '#' are ignored
+
+# assume we have 10 processes
+num_process = 10
+sched_latency = 48
+min_granularity = 6
+
+# Example:
+# P0-P9: burst time is 30, nice value is 0 (default)
+
+
+burst_time = 30 30 30 30 30 30 30 30 30 30
+nice_value =  0  0  0  0  0  0  0  0  0  0
